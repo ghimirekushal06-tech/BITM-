@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    padding: 0 50px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    color: chocolate;
+}
+
+.navbar .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-elements ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.fa-instagram :hover{
+    font-size:  25px;
+    color: chocolate;
+    cursor: pointer;
+}
+
+/* Hero Section */
+
+.hero-section{
+    display: flex;
+    overflow: hidden;
+    flex: 1;
+}
+
+.img-section{
+    flex: 1;
+    overflow: hidden;
+}
+
+.img-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block ;
+
+}
+
+.text-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+    background-color: brown;
+    color: white;
+}
+
+.text-section h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.text-section h2{
+    font-size: 34px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.text-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/*About Section */
+
+.about-section{
+    display:flex;
+    height: 100vh;
+    overflow:hidden;
+    background-color: #6b2f2f;
+    color: white;
+}
+
+.about-me-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+    text-align: justify;
+}   
+
+.about-me-section h1{
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.about-me-section p {
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 1.8;
+}
+
+.skills-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.skills-section h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.my-skills{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:15px;
+    width: 100%;
+    list-style: none;
+}
+
+.my-skills li{
+    background-color: brown;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.my-skills li:hover{
+  transform: translateY(-5px)
+}
+
+.portfolio-section{
+    height: 100vh;
+    background-color: #953333;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+}
+
+.portfolio-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-header h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.portfolio-header p{
+    font-size: 18px;
+}
+
+.portfolio-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+
+.portfolio-card{
+    display: flex;
+    background:white;
+    color:black;
+    border-color: 20px;
+    overflow: hidden;
+}
+
+.portfolio-image{
+ flex: 1;
+}
+
+.portfolio-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.portfolio-details{
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portfolio-details h2{
+    margin-bottom: 15px;
+}
+
+.tech-stack{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tech-stack span{
+    background-color: brown;
+    color: white;
+    padding:8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.project-details{
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+
+
