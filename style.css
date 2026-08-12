@@ -117,6 +117,11 @@ button {
     font-weight: 600;
 }
 
+#typed-text{
+    color:#ffd369;
+    font-weight: 700;
+}
+
 .text-section p {
     font-size: 20px;
     margin-bottom: 30px;
@@ -126,7 +131,7 @@ button {
 
 .about-section{
     display:flex;
-    height: 100vh;
+    height: 110vh;
     overflow:hidden;
     background-color: #6b2f2f;
     color: white;
